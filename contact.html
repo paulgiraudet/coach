@@ -23,8 +23,97 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <i class="fas fa-dumbbell text-primary"></i>
+      <a class="navbar-brand ml-3" href="#">Coach Taylor</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ml-auto">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a class="nav-link" href="info.html">Info Coach</a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a class="nav-link" href="tarif.html">Tarifs</a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-sm-6">
+        <form class="py-5">
+
+          <div class="row">
+
+            <div class="col-sm-6">
+              <label for="examplename">Nom</label>
+              <input type="text" class="form-control" id="examplename">
+            </div>
+            <div class="col-sm-6 pt-4">
+              <label for="examplelast">Prénom</label>
+              <input type="text" class="form-control" id="examplelast">
+            </div>
+            <div class="col-12 pt-4">
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+              </div>
+            </div>
+            <div class="col-12 pt-4">
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+          </div>
+
+        </form>
+
+      </div>
+      <div class="col-sm-6">
+        <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=fr.french%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FParis" class="d-block mx-auto py-5" style="border-width:0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class="col-sm-6 py-5">
+        <h2 class="text-md-right  text-center pr-md-5">Adresse</h2>
+        <address class="text-md-right text-center pr-md-5">
+          <strong>Groupe Vitamine T</strong><br>
+          2 Boulevard Thomson<br>
+          Lesquin 59810
+        </address>
+
+        <address class="text-md-right text-center pr-md-5">
+          <strong>Eric Taylor</strong><br>
+          <a href="#">erictaylor@example.com</a>
+        </address>
+      </div>
+      <div class="col-sm-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.079111262947!2d3.118799851038156!3d50.588482879393986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d6f3dde76c5b%3A0x34141538b049659f!2sVITAMIN+Group+T!5e0!3m2!1sen!2sfr!4v1532103580759" class="d-block mx-auto py-5" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="bg-dark py-4 m-0">
+    <ul class="d-block text-center my-auto pl-0">
+      <li class="d-inline-block mx-2"><a href="#" class="text-danger"><i class="fab fa-instagram fa-2x"></i></a></li>
+      <li class="d-inline-block mx-2"><a href="#" class="text-danger"><i class="fab fa-twitter fa-2x"></i></a></li>
+      <li class="d-inline-block mx-2"><a href="#" class="text-danger"><i class="fab fa-pinterest-p fa-2x"></i></a></li>
+    </ul>
+  </footer>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
