@@ -96,7 +96,55 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header{
+  border-bottom:3px solid #fc561f;
+}
+header i {
+  color:#7cbce2;
+}
 
+header nav, footer{
+  background-color: #293540;
+}
+.thcolor{
+  background-color: #293540;
+  color:#ffffff;
+}
+
+.bouton{
+  border:1px solid #7cbce2;
+  background-color: #fff;
+}
+
+.bouton:hover{
+  background-color: #7cbce2;
+  color:#fff;
+}
+
+h2,
+h3,
+p,
+.ulcolor a
+ {
+  color:#293540;
+}
+
+footer{
+  border-top:3px solid #fc561f;
+}
+footer li a{
+  color:#e1ebf5;
+}
+
+footer li a:hover{
+  color:#fc561f;
+}
+
+.info_container{
+  max-width:1200px;
+
+  padding:5% 0;
+}
 
 
 
